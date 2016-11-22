@@ -80,9 +80,9 @@ gosubを隠蔽して引数とか戻り値っぽいものを使用するための
 
 * 配列を可逆的変換可能な文字列へ変換する。
 
-```
-  #deffunc unzipArray str zipString, ref array ResultArray
 ```hsp
+  #deffunc unzipArray str zipString, ref array ResultArray
+```
 
 * zipArrayで変換された文字列を配列に復元して、 
   ResultArrayに返す。
